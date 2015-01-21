@@ -13,9 +13,9 @@ $('button').on('click', function() {
           response.each(function (user) {
             users.append(
               $('<li>').append(' <a href="https://www.github.com/' + user.login + ' ">  ' + user.login + ' </a> ' + '<br> Name: ' + user.name + '<br> Language: ' + user.language + '<br><br>')
-          ); //end append
-        }); // end response function
-      }); // end gh3 user function
+          ); 
+        }); 
+      }); 
   
- }); // end button on click
+ }); 
 
