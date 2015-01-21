@@ -1,0 +1,19 @@
+body {
+    background: #333;
+    color: white;
+}
+
+
+button {
+ color: #333;   
+}
+
+.dark {
+    color: #333;
+}
+
+ul li {
+    list-style: none;
+
+}
+
