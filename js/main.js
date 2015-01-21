@@ -14,7 +14,6 @@ $('button').on('click', function() {
             users.append(
               $('<li>').append(' <a href="https://www.github.com/' + user.login + ' ">  ' + user.login + ' </a> ' + '<br> Name: ' + user.name + '<br> Language: ' + user.language + '<br>Repos: ' + user.repos + '<br><br>')
           );
-        });
-      });
-
+       });
+    });
  });
