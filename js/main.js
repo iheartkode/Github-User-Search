@@ -3,8 +3,6 @@ $('button').on('click', function() {
     var find = $('#search').val();
 
     $('#search').val("");
-
-
         var users = $("ul");
         Gh3.Users.search(find, {start_page : 1}, function (err, response) {
           if(err) {
